@@ -6,7 +6,7 @@
 FROM golang:1.13-alpine as builder
 
 WORKDIR /sigs.k8s.io
-ENV VERSION v0.5.17
+ENV VERSION v0.7.1
 
 RUN set -x \
   \
